@@ -8,6 +8,9 @@ export function Footer() {
       <p className="mt-2 text-xs text-nb-yellow/70">
         原型数据均为本地 Mock，发布 / 点赞 / 收藏会保存在浏览器 localStorage 中
       </p>
+      <p className="mt-2 text-xs font-bold text-nb-pink">
+        站内梗内容为 AI 生成的示例文本，未经核实，不代表事实；如涉及真人描述，请以官方信息为准
+      </p>
     </footer>
   );
 }
