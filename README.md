@@ -3,6 +3,13 @@
 把原来的单文件 HTML 原型（`抽象梗百科-NeoBrutalism版.html`）重构为工程化前端项目：
 组件拆分、类型完整、状态可持久化，视觉仍然是**亮黄主色 + 粗黑边框 + 硬阴影 + 零圆角 + 超粗字体**的新粗野主义风格。
 
+## 在线演示
+
+<https://zhaoxhqct.github.io/abstract-meme-encyclopedia/>
+
+推送到 `main` 后由 GitHub Actions（见 `.github/workflows/deploy.yml`）自动构建并发布到 GitHub Pages。
+因为是 SPA，构建时会把 `index.html` 复制一份为 `404.html` 兜住深链，所以直接打开 `…/meme/1` 这类地址也能正常渲染（HTTP 状态码仍是 404，仅用于演示）。
+
 ## 技术栈
 
 | 层级 | 选型 |

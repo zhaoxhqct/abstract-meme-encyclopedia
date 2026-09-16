@@ -12,7 +12,8 @@ if (!container) {
 
 ReactDOM.createRoot(container).render(
   <React.StrictMode>
-    <BrowserRouter>
+    {/* basename 跟随 Vite 的 base，部署到子路径时路由才不会错位 */}
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <App />
     </BrowserRouter>
   </React.StrictMode>,
