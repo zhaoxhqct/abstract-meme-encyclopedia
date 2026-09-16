@@ -20,7 +20,7 @@ export function Layout() {
     <div className="flex min-h-screen flex-col">
       <Navbar />
       <p className="border-b-3 border-nb-black bg-nb-pink px-4 py-2 text-center text-xs font-bold sm:text-[13px]">
-        ⚠️ 演示站点：以下梗内容为 AI 生成的示例文本，未经核实，请勿作为事实引用
+        🗂 示例数据：站内梗内容为玩梗记录与演示文本，不作为事实陈述
       </p>
       {/*
         key 绑定 pathname：页面切换时重新挂载，播放入场动画
